@@ -21,7 +21,7 @@ function createTweet(input) {
 		$('.quote').text(quoteText);
 		$('.author').text("Author: " + quoteAuthor);
 		$('.tweet').attr('href', tweet);
-}
+	}
   
     if (!quoteAuthor.length) {
         quoteAuthor = "Unknown author";
